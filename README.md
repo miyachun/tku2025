@@ -1,5 +1,5 @@
 
-import sys
+import sys  
 sys.setrecursionlimit(100000)  
 
 1dataset->https://universe.roboflow.com/hiraki/rock-paper-scissors-rbzgd/dataset/2  
