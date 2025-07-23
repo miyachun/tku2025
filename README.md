@@ -1,4 +1,7 @@
 
+import sys
+sys.setrecursionlimit(100000)  
+
 1dataset->https://universe.roboflow.com/hiraki/rock-paper-scissors-rbzgd/dataset/2  
 2dataset->https://universe.roboflow.com/xiao-chen-gypet/yahoooooo  
 
