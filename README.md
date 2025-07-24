@@ -1,4 +1,4 @@
-
+Ngrok軟體->https://ngrok.com/
 import sys  
 sys.setrecursionlimit(100000)  
 
