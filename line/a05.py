@@ -12,9 +12,9 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-  line_bot_api = LineBotApi('8uYnUXVel0cqNllw+ORRj0q16HepXCUmc3+zpMTqPxyMnU8csqgf0Lft+35XU8mL6fLsmIYUVyL/kVyExJLL2/3KjGqQ+vt4rd440e/cf51k11nmjKeGrYuHbLobyRx53Z5Va0t9RikDriQIVXnlnQdB04t89/1O/w1cDnyilFU=')
+  line_bot_api = LineBotApi('xxxx')
   try:
-    line_bot_api.push_message('U9e67004c725cb0094e823a1bfab53524', TextSendMessage(text='Hello World99999!!!'))
+    line_bot_api.push_message('xxxx', TextSendMessage(text='Hello World!!!'))
     return 'OK'
   except:
     print('error')
