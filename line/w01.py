@@ -5,11 +5,9 @@ from linebot.models import MessageEvent, TextMessage, TextSendMessage
 import random
 app = Flask(__name__)
 
-#line_bot_api = LineBotApi('LINE_CHANNEL_ACCESS_TOKEN')
-#line_handler = WebhookHandler('LINE_CHANNEL_SECRET')
+line_bot_api = LineBotApi('LINE_CHANNEL_ACCESS_TOKEN')
+line_handler = WebhookHandler('LINE_CHANNEL_SECRET')
 
-line_bot_api = LineBotApi('8uYnUXVel0cqNllw+ORRj0q16HepXCUmc3+zpMTqPxyMnU8csqgf0Lft+35XU8mL6fLsmIYUVyL/kVyExJLL2/3KjGqQ+vt4rd440e/cf51k11nmjKeGrYuHbLobyRx53Z5Va0t9RikDriQIVXnlnQdB04t89/1O/w1cDnyilFU=')
-line_handler = WebhookHandler('17c2914e2381b70e4c697614728db454')
 
 @app.route('/')
 def home():
